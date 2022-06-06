@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+}
+
+.main h1,
+.main p,
+footer h1,
+footer p {
+  letter-spacing: 1px;
+}
+
+.main .main-header {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

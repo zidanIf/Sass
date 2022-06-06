@@ -1,0 +1,37 @@
+// variabel
+$background-content1: rgb(36, 124, 182);
+$background-content2: rgb(51, 223, 165);
+$background-content3: rgb(235, 231, 20);
+
+@mixin flex($display: column, $content: space-arround) {
+  display: $display;
+  justify-content: $content;
+  align-items: center;
+}
+.header {
+  @include flex(flex, space-evenly);
+  background-color: $background-content1;
+  ul {
+    list-style-type: none;
+    @include flex(flex, space-evenly);
+  }
+  li a {
+    text-decoration: none;
+    padding-right: 10em;
+    color: $background-content2;
+  }
+}
+
+.header1 {
+  @include flex(flex, space-evenly);
+  background-color: $background-content3;
+  ul {
+    list-style-type: none;
+    @include flex(flex, space-evenly);
+  }
+  li a {
+    text-decoration: none;
+    margin-left: 2em;
+    color: $background-content1;
+  }
+}

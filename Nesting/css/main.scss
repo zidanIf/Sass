@@ -1,0 +1,26 @@
+// Neasting
+body {
+  background-color: aqua;
+}
+.main,
+footer {
+  h1,
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+// .main {
+//   .container & {
+//     background-color: red;
+//   }
+//   .main-heading {
+//     font-size: 2em;
+//   }
+// }
+
+.main {
+  & &-header {
+    text-align: center;
+  }
+}

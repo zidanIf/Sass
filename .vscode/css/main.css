@@ -1,0 +1,37 @@
+body {
+  background-color: red;
+}
+
+body h1 {
+  color: green;
+}
+
+.header p {
+  background-color: green;
+}/*# sourceMappingURL=main.css.map */nter;
+}/*# sourceMappingURL=main.css.map */stify-content: space-evenly;
+  align-items: center;
+}
+.header li a {
+  text-decoration: none;
+  padding-right: 10em;
+  color: rgb(51, 223, 165);
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(235, 231, 20);
+}
+.header1 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header1 li a {
+  text-decoration: none;
+  margin-left: 2em;
+  color: rgb(36, 124, 182);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+$warna-merah: red;
+$warna-hijau: green;
+
+body {
+  background-color: $warna-merah;
+}
+
+body {
+  h1 {
+    color: $warna-hijau;
+  }
+}
+
+// map
+$alert: (
+  "success": green,
+  "warning": orange,
+);
+
+.header {
+  p {
+    background-color: map-get($alert, success);
+  }
+}
